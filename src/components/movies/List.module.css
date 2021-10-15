@@ -1,0 +1,6 @@
+.movieGrid {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+}
+  

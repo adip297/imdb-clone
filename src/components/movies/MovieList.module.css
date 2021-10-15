@@ -1,0 +1,24 @@
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  margin-top: 0.5rem;
+  color: rgb(14, 165, 233);
+  font-size: 1rem;
+}
+
+.rating {
+  margin-top: 0.25rem;
+  color: rgb(148, 163, 184);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
