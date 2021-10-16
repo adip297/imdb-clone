@@ -1,0 +1,43 @@
+.dataPanel {
+  flex: 1 1 0%;
+  max-width: calc(100vw - 300px);
+}
+
+.filterPanel {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  min-width: 300px;
+  padding: 0 2rem;
+  background: #8f429e;
+  color: whitesmoke;
+}
+
+.filterPanel h2 {
+  display: block;
+  font-size: 1.67em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.filterPanel input {
+  display: block;
+  font-size: 1.15em;
+}
+.filterPanel label {
+  display: block;
+  margin-top: 16px;
+  color: whitesmoke;
+  font-size: 1.96em;
+}
+
+.filterPanel select {
+  font-size: 1.36em;
+  margin-top: 5px;
+  display: block;
+  color: black;
+}

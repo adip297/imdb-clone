@@ -1,20 +1,21 @@
-.main-header {
+.main-head {
   position: fixed;
   top: 0;
   left: 0;
-  width: 78%;
+  width: 100%;
   height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #741188;
+  background: #9457a0;
   padding: 0 2rem;
 }
 
-.main-header h1 {
+.main-head h1 {
   color: white;
 }
-.nav ul {
+
+.nav-fil ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -22,19 +23,11 @@
   align-items: center;
 }
 
-.nav a {
+.nav-fil li {
   margin: 0;
   margin-left: 2rem;
   color: white;
   text-decoration: none;
-}
-
-.nav a:hover,
-.nav a:active,
-.nav a.active {
-  color: #95bcf0;
-  padding-bottom: 0.25rem;
-  border-bottom: 4px solid #59bcf0;
 }
 
 .searchBar {

@@ -3,6 +3,7 @@ import classes from "./Header.module.css";
 
 const Header = () => (
   <header className={classes["main-header"]}>
+    <h1>Discover Movies/Tv Shows</h1>
     <nav className={classes["nav"]}>
       <ul>
         <li>
